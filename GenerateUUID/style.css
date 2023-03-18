@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+}
+
+h1{
+    color: #0a0a23;
+}
+
+.button {
+    position: absolute;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding: 20px;
+    min-height:30px; 
+    min-width: 120px;
+  }
